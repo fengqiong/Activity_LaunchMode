@@ -1,0 +1,6 @@
+提取手机log到电脑：adb pull /data/debuglogger ./
+用MTK apk抓log：adb shell am start com.debug.loggerui/.MainActivity
+抓log:adb logcat -v time >log01.txt
+
+日志清除缓存：adb logcat -c
+
